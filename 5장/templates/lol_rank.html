@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h2>롤 랭킹</h2>
+
+<h3>랭커조회</h3>
+<form method="post" action="/lol_show">
+  <div>
+    <label>랭킹</label>
+    <input name="rank" type="integer">
+  </div>
+  <div class='button'>
+    <input type="submit" value="조회">
+  </div>
+ </form>
+{% endblock %}

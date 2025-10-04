@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Welcome to Autometic Hinamno Typhoon Notification</title>
+    </head>
+
+    <body>
+        <h1>hinamno Typhon</h1>
+        <div id = 'main'>
+        <ul>
+            _________날짜_________풍속___이동속도
+            {% for data in dv %}
+            <li><strong>{{data}}</strong></li>
+            {% endfor %}
+        </ul>
+    </div>
+    </body>
+</html>
